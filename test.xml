@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Tests" verbose="1">
+
+    <test name="Chrome_Tests">
+
+        <classes>
+            <class name="Login" />
+            <class name="Loginnegative" />
+            <class name="Logout" />
+            <class name="Registration" />
+            <class name="Registrationnegative" />
+        </classes>
+    </test>
+</suite>
